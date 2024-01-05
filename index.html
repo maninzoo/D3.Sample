@@ -7,13 +7,16 @@
 </head>
 <body>
   <div id="chart"></div>
+  <!-- <script src="https://d3js.org/d3.v7.min.js"></script> -->
   <script src="js/d3.v7.min.js"></script>
   <script src="js/common.js"></script>
   <script src="js/icicle.js"></script>
+  <script src="js/sunburst.js"></script>
   <script>    
     getData('data/flare-2.json')
       .then((flare) => {
         return Icicle(flare);
+        // return Sunburst(flare);
       })
       .then((chart) => {
         const container = document.querySelector('#chart');
