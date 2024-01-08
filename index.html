@@ -23,7 +23,8 @@
   <script src="js/sunburst.js"></script>
   <script>
     function drawChart(type) {
-      getData('data/flare-2.json')
+      // getData('data/flare-2.json')
+      getData('data/inswave.json')
       .then((flare) => {
         return window[type](flare);
       })

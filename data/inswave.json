@@ -1,0 +1,318 @@
+{
+  "name": "인스웨이브",
+  "children": [
+   {
+    "name": "전략마케팅본부",
+    "children": [
+     {
+      "name": "영업지원팀",
+      "children": [
+       {"name": "채부형", "value": 6},
+       {"name": "신기문", "value": 2}
+      ]
+     },
+     {
+      "name": "마케팅프리세일즈팀",
+      "children": [
+       {"name": "김낙천", "value": 15},
+       {"name": "이성복", "value": 10},
+       {"name": "김은지", "value": 4},
+       {"name": "안동주", "value": 4},
+       {"name": "문나은", "value": 2}
+      ]
+     }
+    ]
+   },
+   {
+    "name": "UI/UX사업본부",
+    "children": [
+     {
+      "name": "UX지원팀",
+      "children": [
+       {"name": "방문준", "value": 13},
+       {"name": "김지윤", "value": 15},
+       {"name": "황선하", "value": 13},
+       {"name": "서현진", "value": 10},
+       {"name": "신주한", "value": 10},
+       {"name": "김영진", "value": 10},
+       {"name": "최수만", "value": 10},
+       {"name": "송하은", "value": 10},
+       {"name": "남태우", "value": 10},
+       {"name": "천호진", "value": 13},
+       {"name": "박혜리", "value": 13},
+       {"name": "이주희", "value": 8},
+       {"name": "김유선", "value": 4},
+       {"name": "정은미", "value": 4},
+       {"name": "김선영", "value": 3},
+       {"name": "오미란", "value": 2},
+       {"name": "김진범", "value": 7},
+       {"name": "백종오", "value": 7},
+       {"name": "허지윤", "value": 5},
+       {"name": "장재혁", "value": 4},
+       {"name": "손나영", "value": 2}
+      ]
+     },
+     {
+      "name": "W5컨설팅팀",
+      "children": [
+       {"name": "한명규", "value": 22},
+       {"name": "최전근", "value": 19},
+       {"name": "이민우", "value": 13},
+       {"name": "박상규", "value": 12},
+       {"name": "윤주호", "value": 10},
+       {"name": "이해룡", "value": 8},
+       {"name": "박지철", "value": 4},
+       {"name": "차두형", "value": 4},
+       {"name": "박채원", "value": 2},
+       {"name": "유희정", "value": 2}
+      ]
+     },
+     {
+      "name": "UI플랫폼팀",
+      "children": [
+       {"name": "전병진", "value": 21},
+       {"name": "김민정", "value": 13},
+       {"name": "한상섭", "value": 10},
+       {"name": "최완호", "value": 4},
+       {"name": "신상훈", "value": 13},
+       {"name": "박지안", "value": 4},
+       {"name": "고건", "value": 3},
+       {"name": "이관용", "value": 3},
+       {"name": "최경선", "value": 2},
+       {"name": "손푸름", "value": 2}
+      ]
+     },
+     {
+      "name": "SW성장팀",
+      "children": [
+       {"name": "심재환", "value": 23},
+       {"name": "성희", "value": 16},
+       {"name": "김건식", "value": 12},
+       {"name": "이유미", "value": 10},
+       {"name": "박재준", "value": 7},
+       {"name": "김기수", "value": 4},
+       {"name": "박지민", "value": 2}
+      ]
+     },
+     {
+      "name": "개발플랫폼팀",
+      "children": [
+       {"name": "김원은", "value": 15},
+       {"name": "김지훈", "value": 12},
+       {"name": "권영석", "value": 7},
+       {"name": "홍우영", "value": 2},
+       {"name": "이호성", "value": 2},
+       {"name": "한선재", "value": 2},
+       {"name": "김주영", "value": 2}
+      ]
+     }
+    ]
+   },
+   {
+    "name": "공공금융영업본부",
+    "children": [
+     {
+      "name": "공공영업팀",
+      "children": [
+       {"name": "장재원", "value": 3},
+       {"name": "조재경", "value": 3}
+      ]
+     },
+     {
+      "name": "금융영업팀",
+      "children": [
+       {"name": "김재원", "value": 19},
+       {"name": "김득기", "value": 9},
+       {"name": "송호림", "value": 4}
+      ]
+     }
+    ]
+   },
+   {
+    "name": "기업영업본부",
+    "children": [
+     {
+      "name": "기업영업팀",
+      "children": [
+       {"name": "최강윤", "value": 2},
+       {"name": "김민철", "value": 15}
+      ]
+     }
+    ]
+   },
+   {
+    "name": "경영지원본부",
+    "children": [
+     {
+      "name": "시스템지원팀",
+      "children": [
+       {"name": "김길섭", "value": 1},
+       {"name": "지명근", "value": 23},
+       {"name": "오성원", "value": 4}
+      ]
+     },
+     {
+      "name": "경영지원팀",
+      "children": [
+       {"name": "박진우", "value": 2},
+       {"name": "이종엽", "value": 22},
+       {"name": "이수희", "value": 10},
+       {"name": "주정훈", "value": 6},
+       {"name": "윤소라", "value": 6},
+       {"name": "임재영", "value": 2}
+      ]
+     }
+    ]
+   },
+   {
+    "name": "클라우드사업본부",
+    "children": [
+     {
+      "name": "클라우드사업팀",
+      "children": [
+       {"name": "김유경", "value": 19},
+       {"name": "김지수", "value": 2}
+      ]
+     },
+     {
+      "name": "클라우드공통서비스팀",
+      "children": [
+       {"name": "서용만", "value": 4},
+       {"name": "이종호", "value": 3},
+       {"name": "고경리", "value": 3},
+       {"name": "석요은", "value": 2},
+       {"name": "최민혁", "value": 2},
+       {"name": "송도현", "value": 4},
+       {"name": "이유진", "value": 4}
+      ]
+     }
+    ]
+   },
+   {
+    "name": "UAP사업본부",
+    "children": [
+     {
+      "name": "UAP클라우드팀",
+      "children": [
+       {"name": "이인규", "value": 4},
+       {"name": "백운학", "value": 10},
+       {"name": "김은혜", "value": 4},
+       {"name": "손황호", "value": 3},
+       {"name": "이상민", "value": 2}
+      ]
+     },
+     {
+      "name": "UAP윈도우즈팀",
+      "children": [
+       {"name": "전용준", "value": 8},
+       {"name": "오윤종", "value": 10},
+       {"name": "박성근", "value": 9},
+       {"name": "이정연", "value": 6},
+       {"name": "최기영", "value": 4},
+       {"name": "서범석", "value": 4}
+      ]
+     },
+     {
+      "name": "UAP모바일팀",
+      "children": [
+       {"name": "박상준", "value": 9},
+       {"name": "조광재", "value": 5},
+       {"name": "김창옥", "value": 11},
+       {"name": "김정식", "value": 6},
+       {"name": "장지훈", "value": 6},
+       {"name": "이정명", "value": 2},
+       {"name": "전소연", "value": 4},
+       {"name": "정유진", "value": 3},
+       {"name": "김수린", "value": 3}
+      ]
+     }
+    ]
+   },
+   {
+    "name": "DX사업본부",
+    "children": [
+     {
+      "name": "DX사업팀",
+      "children": [
+       {"name": "박용진", "value": 4},
+       {"name": "고무성", "value": 14},
+       {"name": "박상도", "value": 6},
+       {"name": "한승준", "value": 5},
+       {"name": "김연진", "value": 4},
+       {"name": "위윤석", "value": 8},
+       {"name": "윤건우", "value": 2}
+      ]
+     },
+     {
+      "name": "DX솔루션팀",
+      "children": [
+       {"name": "김완수", "value": 4},
+       {"name": "석창화", "value": 2},
+       {"name": "박은진", "value": 4},
+       {"name": "이지현", "value": 4},
+       {"name": "이제성", "value": 2}
+      ]
+     },
+     {
+      "name": "DX지원팀팀",
+      "children": [
+       {"name": "김진오", "value": 4},
+       {"name": "김성곤", "value": 4},
+       {"name": "이호석", "value": 4},
+       {"name": "손해성", "value": 4},
+       {"name": "이동표", "value": 3},
+       {"name": "김현태", "value": 2},
+       {"name": "오다솔", "value": 2}
+      ]
+     }
+    ]
+   },
+   {
+    "name": "기술지원본부",
+    "children": [
+     {
+      "name": "기술지원팀",
+      "children": [
+       {"name": "안현철", "value": 19},
+       {"name": "이기용", "value": 19},
+       {"name": "송태양", "value": 18},
+       {"name": "정윤경", "value": 13},
+       {"name": "이수경", "value": 4},
+       {"name": "박병규", "value": 4},
+       {"name": "배승희", "value": 4},
+       {"name": "오숙경", "value": 3},
+       {"name": "최지수", "value": 4},
+       {"name": "이지현B", "value": 2},
+       {"name": "남서영", "value": 2},
+       {"name": "안효경", "value": 2},
+       {"name": "강건", "value": 2},
+       {"name": "곽다은", "value": 2}
+      ]
+     }
+    ]
+   },
+   {
+    "name": "프레임워크사업본부",
+    "children": [
+     {
+      "name": "프레임워크개발팀",
+      "children": [
+       {"name": "백승진", "value": 7},
+       {"name": "계정민", "value": 10},
+       {"name": "임현진", "value": 4},
+       {"name": "김진연", "value": 6}
+      ]
+     },
+     {
+      "name": "프레임워크컨설팅팀",
+      "children": [
+       {"name": "조효제", "value": 15},
+       {"name": "김도현", "value": 4},
+       {"name": "하찬준", "value": 5},
+       {"name": "류다은", "value": 4}
+      ]
+     }     
+    ]
+   }
+  ]
+ }
