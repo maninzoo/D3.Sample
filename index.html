@@ -3,25 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <title>Icicle / Sunburst</title>
-  <style></style>
+  <style>
+    .button:focus {
+        background-color: #ffbf00;
+    }
+  </style>
 </head>
 <body>
-  <div id="chart"></div>
+  <div id="content">
+    <button class="button" id="Icicle">Icicle</button>
+    <button class="button" id="Sunburst">Sunburst</button>
+    <p></p>
+    <div id="chart"></div>  
+  </div>
   <!-- <script src="https://d3js.org/d3.v7.min.js"></script> -->
   <script src="js/d3.v7.min.js"></script>
   <script src="js/common.js"></script>
   <script src="js/icicle.js"></script>
   <script src="js/sunburst.js"></script>
-  <script>    
-    getData('data/flare-2.json')
+  <script>
+    function drawChart(type) {
+      getData('data/flare-2.json')
       .then((flare) => {
-        return Icicle(flare);
-        // return Sunburst(flare);
+        return window[type](flare);
       })
       .then((chart) => {
+        const svg = document.querySelector('svg');
         const container = document.querySelector('#chart');
+
+        if( svg ) {
+          container.removeChild(svg);
+        }
+
         container.append(chart);
       });
+    }
+
+    document.addEventListener('click', function(e) {
+      const target = e.target;
+
+      if( target.localName === 'button' ) {
+        drawChart(target.id);
+      }
+    });
+
+    document.querySelector('#Icicle').click();
   </script>
 </body>
 </html>
